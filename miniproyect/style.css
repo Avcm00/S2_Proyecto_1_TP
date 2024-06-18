@@ -1,0 +1,47 @@
+.product-form{
+background-color: #78c580;
+border-radius: 20px;
+width: 80%;
+height: 70%;
+padding: 40px;
+margin: 40px auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 50px;
+align-items: center;
+}
+.product-form input[type="checkbox"]{
+    grid-column: 2;
+}
+.product-form button{
+    grid-column: 2;
+}
+.product-form input[type="text"]:nth-child(1)
+.product-form input[type="number"]:nth-child(2)
+.product-form input[type="number"]:nth-child(3){
+    grid-column: 1;
+}
+header{
+    background-color: rgb(97, 97, 97);
+
+    color:#f1f1f1;
+}
+.add-button{
+    background-color: #258e38;
+    border-radius: 15px;
+    color: #f1f1f1;
+    padding: 5px 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+button :hover{
+    background-color: #0f766e;
+}
+.added-list{
+    background-color: white;
+    border-color: #0f766e;
+    border-radius: 3px;
+}
+
